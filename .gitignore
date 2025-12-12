@@ -1,41 +1,18 @@
-# Prerequisites
-*.d
+build
+out
+.cache
+.idea
+.vs
+.vscode
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+.idea/
+.idea/*
+.idea/**
 
-# Precompiled Headers
-*.gch
-*.pch
+# CMake
+cmake-build-*/
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# OSX
+.DS_Store
